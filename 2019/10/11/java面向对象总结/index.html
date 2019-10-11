@@ -55,28 +55,32 @@
   };
 </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="第一章1,什么是类?什么是对象? 简单来说,类是抽象出某一类事物的行为和特征,并进行的封装,特征称之为属性,行为称之为方法; 对象就是这一类的具体实例,对象拥有这个类的所有属性和方法 举个例子: 所有的人是一个类,人所具有的属性:身高和体重…,人具有的方法:吃饭,睡觉.. 具体到某一个人是一个对象,比如小明就是一个对象,小明有身高,体重,可以吃饭,可以睡觉.. java编程思想中是这么描述对象的:">
+<meta property="og:type" content="article">
+<meta property="og:title" content="java面向对象总结">
+<meta property="og:url" content="http://yoursite.com/2019/10/11/java面向对象总结/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="第一章1,什么是类?什么是对象? 简单来说,类是抽象出某一类事物的行为和特征,并进行的封装,特征称之为属性,行为称之为方法; 对象就是这一类的具体实例,对象拥有这个类的所有属性和方法 举个例子: 所有的人是一个类,人所具有的属性:身高和体重…,人具有的方法:吃饭,睡觉.. 具体到某一个人是一个对象,比如小明就是一个对象,小明有身高,体重,可以吃饭,可以睡觉.. java编程思想中是这么描述对象的:">
 <meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2019-10-11T08:34:19.539Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
-  <link rel="canonical" href="http://yoursite.com/">
+<meta name="twitter:title" content="java面向对象总结">
+<meta name="twitter:description" content="第一章1,什么是类?什么是对象? 简单来说,类是抽象出某一类事物的行为和特征,并进行的封装,特征称之为属性,行为称之为方法; 对象就是这一类的具体实例,对象拥有这个类的所有属性和方法 举个例子: 所有的人是一个类,人所具有的属性:身高和体重…,人具有的方法:吃饭,睡觉.. 具体到某一个人是一个对象,比如小明就是一个对象,小明有身高,体重,可以吃饭,可以睡觉.. java编程思想中是这么描述对象的:">
+  <link rel="canonical" href="http://yoursite.com/2019/10/11/java面向对象总结/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome: true,
-    isPost: false,
+    isHome: false,
+    isPost: true,
     isPage: false,
     isArchive: false
   };
 </script>
 
-  <title>Hexo</title>
+  <title>java面向对象总结 | Hexo</title>
   
 
 
@@ -190,10 +194,10 @@
             
 
   <div class="posts-expand">
-        
+      
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="en">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="en">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/11/java面向对象总结/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -208,8 +212,9 @@
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           
+            java面向对象总结
             
-            <a href="/2019/10/11/java面向对象总结/" class="post-title-link" itemprop="url">java面向对象总结</a>
+
           
         </h1>
 
@@ -243,7 +248,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h5 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h5><p>1,什么是类?什么是对象?</p>
+        <h5 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h5><p>1,什么是类?什么是对象?</p>
 <p>简单来说,类是抽象出某一类事物的行为和特征,并进行的封装,特征称之为属性,行为称之为方法;</p>
 <p>对象就是这一类的具体实例,对象拥有这个类的所有属性和方法</p>
 <p>举个例子:</p>
@@ -368,27 +373,26 @@
 <p>26     }</p>
 <p>27 }</p>
 
-        
-      
     </div>
 
     
     
     
-      <footer class="post-footer">
-          <div class="post-eof"></div>
         
+      
+
+      <footer class="post-footer">
+
+        
+
       </footer>
+    
   </article>
   
   
   
 
-    
   </div>
-
-  
-
 
 
           </div>
@@ -405,6 +409,11 @@
 
   <aside class="sidebar">
     <div class="sidebar-inner">
+        
+        
+        
+        
+      
 
       <ul class="sidebar-nav motion-element">
         <li class="sidebar-nav-toc">
@@ -417,6 +426,8 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#第一章"><span class="nav-number">1.</span> <span class="nav-text">第一章</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#第二章-面向对象的创建"><span class="nav-number">2.</span> <span class="nav-text">第二章    面向对象的创建</span></a></li></ol></div>
+        
       </div>
       <!--/noindex-->
 
