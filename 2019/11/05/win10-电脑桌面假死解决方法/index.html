@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  
+  <title>win10 电脑桌面假死解决方法 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+    <meta name="keywords" content="MinHow,MinHow's Blog">
+  
+  <meta name="description" content="win10电脑桌面每次右击无响应，假死，如何解决？ 最近针对我室友遇到的问题，我帮他解决之后总结了一些解决方法，希望对你有帮助 他是在更新完win10系统之后出现的桌面假死情况 问题：每次开机后右击鼠标，鼠标就一直转圈圈，点桌面图标无任何反应，桌面图标不消失，一直存在，但点任务栏没问题。 解决方法：1、打开注册表管理器的方法有很多种，Coke只说通俗易懂的，直接点击任务栏的搜索框输入【Regedi">
+<meta property="og:type" content="article">
+<meta property="og:title" content="win10 电脑桌面假死解决方法">
+<meta property="og:url" content="http://yoursite.com/2019/11/05/win10-电脑桌面假死解决方法/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="win10电脑桌面每次右击无响应，假死，如何解决？ 最近针对我室友遇到的问题，我帮他解决之后总结了一些解决方法，希望对你有帮助 他是在更新完win10系统之后出现的桌面假死情况 问题：每次开机后右击鼠标，鼠标就一直转圈圈，点桌面图标无任何反应，桌面图标不消失，一直存在，但点任务栏没问题。 解决方法：1、打开注册表管理器的方法有很多种，Coke只说通俗易懂的，直接点击任务栏的搜索框输入【Regedi">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="d:%5Cimgage%5C1.png">
+<meta property="og:image" content="d:%5Cimgage%5C2.png">
+<meta property="og:image" content="d:%5Cimgage%5C3.png">
+<meta property="og:image" content="d:%5Cimgage%5C4.png">
+<meta property="og:image" content="d:%5Cimgage%5C5.png">
+<meta property="og:image" content="d:%5Cimgage%5C6.png">
+<meta property="og:image" content="d:%5Cimgage%5C7.png">
+<meta property="og:updated_time" content="2019-11-05T10:14:37.288Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="win10 电脑桌面假死解决方法">
+<meta name="twitter:description" content="win10电脑桌面每次右击无响应，假死，如何解决？ 最近针对我室友遇到的问题，我帮他解决之后总结了一些解决方法，希望对你有帮助 他是在更新完win10系统之后出现的桌面假死情况 问题：每次开机后右击鼠标，鼠标就一直转圈圈，点桌面图标无任何反应，桌面图标不消失，一直存在，但点任务栏没问题。 解决方法：1、打开注册表管理器的方法有很多种，Coke只说通俗易懂的，直接点击任务栏的搜索框输入【Regedi">
+<meta name="twitter:image" content="d:%5Cimgage%5C1.png">
+  
+  
+    <link rel="icon" href="/favicon.ico">
+  
+  <link href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/pace.min.js"></script>
+  
+
+  
+  
+
+</head>
+</html>
+<body>
+  <div id="container">
+      <header id="header">
+    <div id="banner"></div>
+    <div id="header-outer">
+        <div id="header-menu" class="header-menu-pos animated">
+            <div class="header-menu-container">
+                <a href="/" class="left">
+                    <span class="site-title">Coke&#39;s Blog</span>
+                </a>
+                <nav id="header-menu-nav" class="right">
+                    
+                    <a  href="/">
+                        <i class="fa fa-home"></i>
+                        <span>Home</span>
+                    </a>
+                    
+                    <a  href="/archives">
+                        <i class="fa fa-archive"></i>
+                        <span>Archives</span>
+                    </a>
+                    
+                    <a  href="/about">
+                        <i class="fa fa-user"></i>
+                        <span>About</span>
+                    </a>
+                    
+                </nav>
+                <a class="mobile-header-menu-button">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+        <div id="header-row">
+            <div id="logo">
+                <a href="/">
+                    <img src="/images/logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="header-info">
+                <div id="header-title">
+                    
+                    <h2>
+                        Coke&#39;s Blog
+                    </h2>
+                    
+                </div>
+                <div id="header-description">
+                    
+                    <h3>
+                        一个专注 WEB 开发的技术博客
+                    </h3>
+                    
+                </div>
+            </div>
+            <nav class="header-nav">
+                <div class="social">
+                    
+                        <a title="MinHow" target="_blank" href="//minhow.com">
+                            <i class="fa fa-home fa-2x"></i></a>
+                    
+                        <a title="Github" target="_blank" href="//github.com/wongminho">
+                            <i class="fa fa-github fa-2x"></i></a>
+                    
+                        <a title="Weibo" target="_blank" href="//weibo.com/WongMinHo">
+                            <i class="fa fa-weibo fa-2x"></i></a>
+                    
+                        <a title="Twitter" target="_blank" href="//twitter.com/huangminhow">
+                            <i class="fa fa-twitter fa-2x"></i></a>
+                    
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+      <div class="outer">
+        <section id="main" class="body-wrap"><article id="post-win10-电脑桌面假死解决方法" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 class="post-title" itemprop="name">
+      win10 电脑桌面假死解决方法
+    </h1>
+    <div class="post-title-bar">
+      <ul>
+          
+        <li>
+          <i class="fa fa-calendar"></i>  2019-11-05
+        </li>
+        <li>
+          <i class="fa fa-eye"></i>
+          <span id="busuanzi_value_page_pv"></span>
+        </li>
+      </ul>
+    </div>
+  
+
+          
+      </header>
+    
+    <div class="article-entry post-content" itemprop="articleBody">
+      
+            
+            <h4 id="win10电脑桌面每次右击无响应，假死，如何解决？"><a href="#win10电脑桌面每次右击无响应，假死，如何解决？" class="headerlink" title="win10电脑桌面每次右击无响应，假死，如何解决？"></a>win10电脑桌面每次右击无响应，假死，如何解决？</h4><hr>
+<p>最近针对我室友遇到的问题，我帮他解决之后总结了一些解决方法，希望对你有帮助</p>
+<p>他是在更新完win10系统之后出现的桌面假死情况</p>
+<p>问题：每次开机后右击鼠标，鼠标就一直转圈圈，点桌面图标无任何反应，桌面图标不消失，一直存在，但点任务栏没问题。</p>
+<h2 id="解决方法："><a href="#解决方法：" class="headerlink" title="解决方法："></a>解决方法：</h2><p>1、打开注册表管理器的方法有很多种，Coke只说通俗易懂的，直接点击任务栏的搜索框输入【Regedit】按回车即可打开注册表管理器。</p>
+<p><img src="D:%5Cimgage%5C1.png" alt></p>
+<p>2、首先点击第一主项【HKEY_CLASSES_ROOT】。</p>
+<p><img src="D:%5Cimgage%5C2.png" alt></p>
+<p>3、点击注册表管理器菜单选择【编辑】-【查找】，利用查找快速定位。</p>
+<p><img src="D:%5Cimgage%5C3.png" alt></p>
+<p>4、弹出搜索选项，首先输入查找的内容为【Directory】，附加选项为只查看项，同时勾选【全字匹配】，缩小查找结果的数目。</p>
+<p><img src="D:%5Cimgage%5C4.png" alt></p>
+<p>5、当查找到Directory后再按键盘的方向右展开注册表项至以下位置，如果你担心位置是否正确可对照图片最下方HKEY_CLASSES_ROOT\Directory\Background\Shellex\ContextMenuHandlers。</p>
+<p><img src="D:%5Cimgage%5C5.png" alt></p>
+<p>6、删除ContextMenuHandlers内除【New】以外的注册表项(把除了New以外项删掉，保留一个New项)。</p>
+<p><img src="D:%5Cimgage%5C6.png" alt></p>
+<p>7、删除过程中可能有提示无法删除，点击确定好了。</p>
+<p><img src="D:%5Cimgage%5C7.png" alt></p>
+<p>最后试试右键桌面，看速度如何，如果还不行的话，重启下电脑就行了。</p>
+
+            <div class="post-copyright">
+    <div class="content">
+        <p>最后更新： 2019年11月05日 18:14</p>
+        <p>原始链接： <a class="post-url" href="/2019/11/05/win10-电脑桌面假死解决方法/" title="win10 电脑桌面假死解决方法">http://yoursite.com/2019/11/05/win10-电脑桌面假死解决方法/</a></p>
+        <footer>
+            <a href="http://yoursite.com">
+                <img src="/images/logo.png" alt="John Doe">
+                John Doe
+            </a>
+        </footer>
+    </div>
+</div>
+
+      
+        
+            
+<div class="page-reward">
+    <a id="rewardBtn" href="javascript:;">赏</a>
+</div>
+
+<div id="reward" class="post-modal reward-lay">
+    <a class="close" href="javascript:;" id="reward-close">×</a>
+    <span class="reward-title">
+        <i class="icon icon-quote-left"></i>
+        请我吃糖~
+        <i class="icon icon-quote-right"></i>
+    </span>
+    <div class="reward-content">
+        
+        <div class="reward-code">
+            <img id="rewardCode" src="/images/wechat_code.jpg" alt="打赏二维码">
+        </div>
+        <div class="reward-select">
+            
+            <label class="reward-select-item checked" data-id="wechat" data-wechat="/images/wechat_code.jpg">
+                <img class="reward-select-item-wechat" src="/images/wechat.png" alt="微信">
+            </label>
+            
+            
+            <label class="reward-select-item" data-id="alipay" data-alipay="/images/alipay_code.jpg">
+                <img class="reward-select-item-alipay" src="/images/alipay.png" alt="支付宝">
+            </label>
+            
+        </div>
+    </div>
+</div>
+
+
+        
+    </div>
+    <footer class="article-footer">
+        
+        
+<div class="post-share">
+    <a href="javascript:;" id="share-sub" class="post-share-fab">
+        <i class="fa fa-share-alt"></i>
+    </a>
+    <div class="post-share-list" id="share-list">
+        <ul class="share-icons">
+          <li>
+            <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://yoursite.com/2019/11/05/win10-电脑桌面假死解决方法/&title=《win10 电脑桌面假死解决方法》 — Hexo&pic=http://yoursite.comimages/logo.png" data-title="微博">
+              <i class="fa fa-weibo"></i>
+            </a>
+          </li>
+          <li>
+            <a class="weixin share-sns" id="wxFab" href="javascript:;" data-title="微信">
+              <i class="fa fa-weixin"></i>
+            </a>
+          </li>
+          <li>
+            <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://yoursite.com/2019/11/05/win10-电脑桌面假死解决方法/&title=《win10 电脑桌面假死解决方法》 — Hexo&source=" data-title="QQ">
+              <i class="fa fa-qq"></i>
+            </a>
+          </li>
+          <li>
+            <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2019/11/05/win10-电脑桌面假死解决方法/" data-title="Facebook">
+              <i class="fa fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《win10 电脑桌面假死解决方法》 — Hexo&url=http://yoursite.com/2019/11/05/win10-电脑桌面假死解决方法/&via=http://yoursite.com" data-title="Twitter">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://yoursite.com/2019/11/05/win10-电脑桌面假死解决方法/" data-title="Google+">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        </ul>
+     </div>
+</div>
+<div class="post-modal wx-share" id="wxShare">
+    <a class="close" href="javascript:;" id="wxShare-close">×</a>
+    <p>扫一扫，分享到微信</p>
+    <img src="//api.qrserver.com/v1/create-qr-code/?data=http://yoursite.com/2019/11/05/win10-电脑桌面假死解决方法/" alt="微信分享二维码">
+</div>
+
+<div class="mask"></div>
+
+        
+        <ul class="article-footer-menu">
+            
+            
+        </ul>
+        
+    </footer>
+  </div>
+</article>
+
+
+    <aside class="post-toc-pos post-toc-top" id="post-toc">
+        <nav class="post-toc-wrap">
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#win10电脑桌面每次右击无响应，假死，如何解决？"><span class="post-toc-text">win10电脑桌面每次右击无响应，假死，如何解决？</span></a></li></ol></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#解决方法："><span class="post-toc-text">解决方法：</span></a>
+        </nav>
+    </aside>
+    
+
+<nav id="article-nav">
+  
+  
+    <a href="/2019/10/17/MYSQL命令总结/" id="article-nav-older" class="article-nav-link-wrap">
+      <span class="article-nav-title">MYSQL命令总结</span>
+      <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+    </a>
+  
+</nav>
+
+
+
+    
+</section>
+        
+      </div>
+      <footer id="footer">
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+<p>
+    <span id="busuanzi_container_site_uv" style='display:none'>
+        总访客数：<span id="busuanzi_value_site_uv"></span>
+    </span>
+    <span id="busuanzi_container_site_pv" style='display:none'>
+        总访问量：<span id="busuanzi_value_site_pv"></span>
+    </span>
+</p>
+
+
+      <p>
+        Powered by  <a href="http://hexo.io/" target="_blank">Hexo</a>
+        Theme <a href="//github.com/wongminho/hexo-theme-miho" target="_blank">MiHo</a>
+      &copy; 2019 John Doe<br>
+      </p>
+    </div>
+  </div>
+</footer>
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script>
+  var mihoConfig = {
+      root: "http://yoursite.com",
+      animate: true,
+      isHome: false,
+      share: true,
+      reward: 1
+  }
+</script>
+<div class="sidebar">
+    <div id="sidebar-search" title="Search">
+        <i class="fa fa-search"></i>
+    </div>
+    <div id="sidebar-category" title="Categories">
+        <i class="fa fa-book"></i>
+    </div>
+    <div id="sidebar-tag" title="Tags">
+        <i class="fa fa-tags"></i>
+    </div>
+    <div id="sidebar-top">
+        <span class="sidebar-top-icon"><i class="fa fa-angle-up"></i></span>
+    </div>
+</div>
+<div class="sidebar-menu-box" id="sidebar-menu-box">
+    <div class="sidebar-menu-box-container">
+        <div id="sidebar-menu-box-categories">
+            
+        </div>
+        <div id="sidebar-menu-box-tags">
+            
+        </div>
+    </div>
+    <a href="javascript:;" class="sidebar-menu-box-close">&times;</a>
+</div>
+<div class="mobile-header-menu-nav" id="mobile-header-menu-nav">
+    <div class="mobile-header-menu-container">
+        <span class="title">Menus</span>
+        <ul class="mobile-header-menu-navbar">
+            
+            <li>
+                <a  href="/">
+                    <i class="fa fa-home"></i><span>Home</span>
+                </a>
+            </li>
+            
+            <li>
+                <a  href="/archives">
+                    <i class="fa fa-archive"></i><span>Archives</span>
+                </a>
+            </li>
+            
+            <li>
+                <a  href="/about">
+                    <i class="fa fa-user"></i><span>About</span>
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+    <div class="mobile-header-tag-container">
+        <span class="title">Tags</span>
+        <div id="mobile-header-container-tags">
+            
+        </div>
+    </div>
+</div>
+<div class="search-wrap">
+    <span class="search-close">&times;</span>
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
+            <i class="icon icon-lg icon-chevron-left"></i>
+        </a>
+        <input class="search-field" placeholder="Search..." id="keywords">
+        <a id="search-submit" href="javascript:;">
+            <i class="fa fa-search"></i>
+        </a>
+    <div class="search-container" id="search-container">
+        <ul class="search-result" id="search-result">
+        </ul>
+    </div>
+</div>
+
+<div id="search-tpl">
+    <li class="search-result-item">
+        <a href="{url}" class="search-item-li">
+            <span class="search-item-li-title" title="{title}">{title}</span>
+        </a>
+    </li>
+</div>
+<script src="/js/search.js"></script>
+<script src="/js/main.js"></script>
+
+
+  <script src="//cdn.bootcss.com/particles.js/2.0.0/particles.min.js"></script>
+  <div id="particles"></div>
+  <script src="/js/particles.js"></script>
+
+
+
+
+
+
+
+  <link rel="stylesheet" href="//cdn.bootcss.com/animate.css/3.5.0/animate.min.css">
+  <script src="//cdn.bootcss.com/scrollReveal.js/3.0.5/scrollreveal.js"></script>
+  <script src="/js/animate.js"></script>
+
+
+  <script src="/js/pop-img.js"></script>
+  <script>
+     $(".article-entry p img").popImg();
+  </script>
+
+  </div>
+</body>
+</html>
